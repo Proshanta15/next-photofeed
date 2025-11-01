@@ -1,65 +1,41 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.js file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+    <div className="container">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+        est eveniet ipsum incidunt, modi tempore impedit animi repellat beatae
+        autem accusantium, pariatur consectetur quisquam eaque reiciendis dolore
+        voluptas nemo consequuntur numquam, blanditiis quam unde aut? Eius nulla
+        alias veritatis sapiente magni excepturi quam molestias recusandae.
+        Mollitia minima laborum, libero omnis nobis vel obcaecati voluptatibus
+        itaque suscipit sunt quis temporibus sed molestias eligendi. Odit
+        recusandae qui ex natus voluptatibus debitis animi? Magnam iure
+        molestiae in aspernatur id. Perferendis dignissimos, atque amet nobis ut
+        nisi sapiente eius consequuntur pariatur? Aperiam saepe esse harum totam
+        voluptate, voluptatem, fuga nemo similique non impedit nam cumque
+        consequatur minima. Sint nam dicta aut, dolores similique ratione
+        voluptate perferendis eligendi veniam sed, praesentium soluta unde
+        quisquam, totam velit exercitationem ea culpa non facilis dolorum.
+        Voluptates recusandae, veritatis hic non ab sequi iusto sit quaerat quia
+        a dolore eveniet exercitationem ipsam quae, esse tenetur nam.
+        Voluptatibus doloremque, porro tempora praesentium suscipit quas aut
+        eius enim perferendis debitis id vitae dolorem aliquam deleniti magni
+        quisquam impedit et repellat officiis quia odit? Ullam voluptate qui
+        totam ducimus perspiciatis atque esse natus, ipsum animi ipsam
+        exercitationem praesentium debitis harum asperiores sequi temporibus hic
+        distinctio illo, maxime dicta, ratione neque dolores vero? Quisquam
+        quibusdam ut officia architecto. Recusandae cumque, aspernatur, corporis
+        fugiat consectetur vitae inventore odio quidem tempore totam quia cum
+        quo a ad aliquam sint praesentium labore quisquam. Delectus quae,
+        quaerat repellendus maiores aspernatur, atque reprehenderit sequi eum
+        quasi iste voluptates, eos impedit consequuntur tempore in temporibus
+        veritatis ipsa quibusdam optio iure. Et, accusamus. Iste voluptates ipsa
+        veritatis perferendis similique laborum cupiditate, odio unde esse,
+        aliquid sequi quos ex delectus earum asperiores in, nihil id? Sapiente
+        est recusandae suscipit corporis in voluptatibus? Dicta ducimus, qui
+        corporis architecto porro sunt enim ab dolores beatae eligendi vero
+        similique incidunt facere nostrum a quasi.
+      </p>
     </div>
   );
 }
