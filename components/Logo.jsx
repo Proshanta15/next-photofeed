@@ -9,7 +9,7 @@ export default function Logo() {
         src="/lws_logo.png"
         alt="Lws"
         width={100}
-        height={165}
+        height={100}
       />
     </Link>
   );

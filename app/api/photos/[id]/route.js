@@ -2,9 +2,8 @@ import { getPhotoById } from "@/lib/image-data";
 import { NextResponse } from "next/server";
 
 export async function GET(request, { params }) {
-  const photoId = params?.id;
+  const { id } = await params;
 
-  const data = await getPhotoById(photoId);
-
+  const data = getPhotoById(id);
   return NextResponse.json(data);
 }

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function PhotoCard({ photo }) {
   return (
-    <div>
+    <>
       <Link href={`photos/${photo.id}`} className="group">
         <Image src={photo.url} alt={photo.title} width={700} height={700} />
 
@@ -11,6 +11,6 @@ export default function PhotoCard({ photo }) {
           <h4 className="title">{photo.title}</h4>
         </div>
       </Link>
-    </div>
+    </>
   );
 }
