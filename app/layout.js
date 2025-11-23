@@ -12,6 +12,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         <div className="container my-4 lg:my-8">{children}</div>
+        <div id="modal-root-content"></div>
       </body>
     </html>
   );
